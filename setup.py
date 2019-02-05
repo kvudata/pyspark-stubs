@@ -33,5 +33,5 @@ setup(
     package_data={
         '': ['*.pyi', 'py.typed']
     },
-    install_requires=['pyspark>=2.4.0,<3.0.0']
+    install_requires=['pyspark>=2.4.0,<3.0.0', 'typing-extensions>=3.7.0']
 )
